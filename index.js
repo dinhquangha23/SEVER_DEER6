@@ -24,5 +24,6 @@ app.use("/api",router)
 //     res.json("hello product")
 // })
 app.listen(3000,()=>{
+    console.log("hello backend")
     
 })
